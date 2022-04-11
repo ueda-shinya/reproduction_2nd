@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+html {
+    font-size: calc(100vw/192);
+}
+
+/************************************************
+    body    */
+body{
+    min-width: 1920px;
+    padding-top: 70px;
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+h2{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+h3{
+    font-size: 24px;
+    color: white;
+}
+.techgreen{
+    color:#28abae;
+}
+.backgreen{
+    color:#e5f6f7;
+}
+
+/************************************************
+    header   */
+header {
+    width: 100%; /* 幅いっぱいを指定 */
+    height: 70px; /* 高さを50pxに指定 */
+    background:white;  /* 背景色にグレーを指定 */
+    /*padding: 20px 50px;  ヘッダーに上下左右それぞれ余白を指定 */
+    box-sizing: border-box; /* padding分を含んで幅を100%にするため */
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    top: 0; /* 上下の固定位置を上から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+    display: flex; /* 中の要素を横並びにする */
+    /*align-items: center;  中の要素を上下中央に並べる */
+    justify-content: space-between;
+}
+.header__logo{
+    padding-top: 20px;
+    padding-left: 30px;
+
+}
+.header__contact{
+    background-color: black;
+    color: white;
+    width:290px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/************************************************
+    atf */
+h3{
+    padding-top: 15.5rem;
+    padding-bottom: 3.3rem;
+    font-size: 4.6rem;
+}
+h2{
+    font-size: 7.5rem;
+}
+.atf{
+    width:100vw;
+    display: flex;
+}
+.atf__img img{
+    width:100%;
+    height:calc(100vw*.34);
+}
+.atf__content{
+    width:35%;
+    height:calc(100vw*.34);
+    background-color: #28abae;
+    text-align: center;
+    color: white;
+}
+.opentime{
+    padding-top: 4.0rem;
+    padding-bottom: 2.0rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.memo{
+    font-size: 2.0rem;
+    letter-spacing: 0.3rem;
+}
+/************************************************
+    about    */
+.about{
+    width:100%;
+    text-align: center;
+}
+.about__area{
+    width: 800px;
+    display: flex;
+    margin: 20px calc(50vw - 400px);
+    text-align: left;
+    color: black;
+
+}
+.about__title h3{
+    width:490px;
+    padding-top: 0px;
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+}
+.about__content{
+    width:450px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+.about__content p{
+    margin-top: 48px;
+}
+.about__img{
+    width:310px;
+}
+/************************************************
+    Facility    */
+.facility{
+    width:500px;
+    margin: 20px calc(50vw - 250px);
+    text-align: center;
+}
+.facility__title{
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.facility__h2{
+    margin: 24px 0 56px;
+    color: black;
+    font-size: 24px;
+    letter-spacing: 2px;;
+}
+.facility__icon-area{
+    display: flex;
+    justify-content:space-between;
+}
+.facility__icon{
+    width: 32px;
+}
+/************************************************
+    space   */
+.space{
+    width:100%;
+    height:500px;
+    background-color: #e5f6f7;
+}
+.space__img{
+    width:600px;
+    margin: 40px calc(50vw - 300px);
+}
+/************************************************
+    feature*/
+.feature{
+    width:800px;
+    margin: 20px calc(50vw - 400px);
+    text-align: center;
+}
+.feature__title{
+    width: 100%;
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.feature__p{
+    width: 100%;
+    margin: 24px 0 56px;
+    color: black;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.feature__img-area{
+    height: 310px;
+    width: 800px;
+    display: flex;
+}
+.feature__img{
+    width: 266px;
+}
+.feature__img img{
+    width: 240px;
+    margin: 0 auto;
+}
+.feature__img .feature__img-title{
+    margin: 12px 0 12px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.feature__img p{
+    text-align: left;
+    font-size: 15px;
+}
+.feature__end{
+    width: 100%;
+    font-size: 10px;
+}
+
+/************************************************
+*/
+/************************************************
+*/
+/************************************************
+*/
+/************************************************
+*/
+
+/************************************************
+    */
+
+    /************************************************
+    */
+
+    /************************************************
+    */
+
+    /************************************************
+    */
+
+    /************************************************
+    */
+
+    /************************************************
+    */
+
+
+
+
+
+
+/************************************************
+    レスポンシブ対応 */
+
+@media screen and (max-width: 767px) {
+}
