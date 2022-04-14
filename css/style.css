@@ -71,7 +71,7 @@ h3{
 h2{
     font-size: 7.5rem;
 }
-.atf{
+#atf{
     width:100vw;
     display: flex;
 }
@@ -98,7 +98,7 @@ h2{
 }
 /************************************************
     about    */
-.about{
+#about{
     width:100%;
     text-align: center;
 }
@@ -131,9 +131,9 @@ h2{
 }
 /************************************************
     Facility    */
-.facility{
-    width:500px;
-    margin: 20px calc(50vw - 250px);
+#facility{
+    width: 500px;
+    margin:  20px calc(50vw - 250px);
     text-align: center;
 }
 .facility__title{
@@ -145,7 +145,7 @@ h2{
     margin: 24px 0 56px;
     color: black;
     font-size: 24px;
-    letter-spacing: 2px;;
+    letter-spacing: 2px;
 }
 .facility__icon-area{
     display: flex;
@@ -156,18 +156,18 @@ h2{
 }
 /************************************************
     space   */
-.space{
-    width:100%;
-    height:500px;
+#space{
+    width : 100vw;
+    height: 500px;
     background-color: #e5f6f7;
 }
 .space__img{
-    width:600px;
+    width: 600px;
     margin: 40px calc(50vw - 300px);
 }
 /************************************************
     feature*/
-.feature{
+#feature{
     width:800px;
     margin: 20px calc(50vw - 400px);
     text-align: center;
@@ -212,9 +212,25 @@ h2{
     width: 100%;
     font-size: 10px;
 }
-
 /************************************************
-*/
+    flow    */
+#flow{
+    width:100vw;
+    height:800px;
+    text-align: center;
+}
+
+
+.flow__area{
+    width:600px;
+    height: 700px;
+    margin: 20px calc(50vw - 300px);
+    display:flex;
+}
+.flow__box{
+    width:280px;
+    height:600px;
+}
 /************************************************
 */
 /************************************************
