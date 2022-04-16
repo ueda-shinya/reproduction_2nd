@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
 html {
-    font-size: calc(100vw/192);
+    font-size: calc(100vw / 192);
 }
 
 /************************************************
     body    */
 body{
-    min-width: 1920px;
+    /*min-width: 1080px;*/
+    width: 100vw;
     padding-top: 70px;
     font-family: "Helvetica Neue",
     Arial,
@@ -35,7 +36,7 @@ h3{
 /************************************************
     header   */
 header {
-    width: 100%; /* 幅いっぱいを指定 */
+    width: 100vw; /* 幅いっぱいを指定 */
     height: 70px; /* 高さを50pxに指定 */
     background:white;  /* 背景色にグレーを指定 */
     /*padding: 20px 50px;  ヘッダーに上下左右それぞれ余白を指定 */
@@ -61,6 +62,10 @@ header {
     font-size: 15px;
 }
 
+main{
+    width:100vw;
+}
+
 /************************************************
     atf */
 h3{
@@ -77,11 +82,11 @@ h2{
 }
 .atf__img img{
     width:100%;
-    height:calc(100vw*.34);
+    height:calc(100vw * .34);
 }
 .atf__content{
     width:35%;
-    height:calc(100vw*.34);
+    height:calc(100vw * .34);
     background-color: #28abae;
     text-align: center;
     color: white;
@@ -99,7 +104,7 @@ h2{
 /************************************************
     about    */
 #about{
-    width:100%;
+    width:100vw;
     text-align: center;
 }
 .about__area{
@@ -168,27 +173,25 @@ h2{
 /************************************************
     feature*/
 #feature{
-    width:800px;
-    margin: 20px calc(50vw - 400px);
+    width:100vw;
     text-align: center;
 }
 .feature__title{
-    width: 100%;
     margin-top: 80px;
     font-weight: bold;
     font-size: 18px;
-
 }
 .feature__p{
-    width: 100%;
     margin: 24px 0 56px;
     color: black;
     font-size: 24px;
+    font-weight: bold;
     letter-spacing: 2px;
 }
 .feature__img-area{
     height: 310px;
     width: 800px;
+    margin: 20px calc(50vw - 400px);
     display: flex;
 }
 .feature__img{
@@ -212,35 +215,155 @@ h2{
     width: 100%;
     font-size: 10px;
 }
+.feature__btn{
+    margin: 40px auto 80px;
+    padding: 12px 40px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+}
 /************************************************
     flow    */
 #flow{
     width:100vw;
-    height:800px;
+    height:400px;
     text-align: center;
 }
-
-
+.flow__title{
+    font-weight: bold;
+    font-size: 18px;
+}
+.flow__text{
+    margin: 24px auto 56px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
 .flow__area{
-    width:600px;
-    height: 700px;
-    margin: 20px calc(50vw - 300px);
+    width:800px;
+    height: 200px;
+    margin: 20px calc(50vw - 400px);
     display:flex;
 }
 .flow__box{
-    width:280px;
-    height:600px;
+    width:360px;
+    height:240px;
+    margin: 0 20px;
+}
+.flow__box-title{
+    margin: 24px auto 24px;
+    font-size: 16px;
+    font-weight:bold;
+    text-align: center;
+}
+.flow__box-memo{
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5;
 }
 /************************************************
-*/
+    price   */
+#price{
+    width:100vw;
+    text-align: center;
+    background-color:#e5f6f7;
+}
+.price__title{
+    font-weight: bold;
+    padding-top: 64px;
+    font-size: 18px;
+}
+.price__text{
+    margin: 24px auto 56px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.price__course{
+    width:800px;
+    margin: 0px calc(50vw - 400px);
+    display: block;
+}
+.price__block{
+    width: 800px;
+    display: flex;
+}
+.price__ul{
+    width:400px;
+    height:60px;
+    padding-top: 16px;
+    background-color: #444;
+    color: white;
+    font-size: 14px;
+    border: grey solid 1px;
+}
+.price__li{
+    width: 400px;
+    border: grey solid 1px;
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 16px;
+    font-size: 14px;
+}
+.price__memo{
+    width:800px;
+    margin: 12px 0 64px;
+    text-align: left;
+    font-size: 8px;
+    line-height: 1.5;
+}
 /************************************************
-*/
+    map */
+#map{
+    width: 100vw;
+    text-align: center;
+}
+.map__title{
+    font-weight: bold;
+    padding-top: 64px;
+    font-size: 18px;
+}
+.map__text{
+    margin: 24px auto 56px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.map__address{
+    font-size: 16px;
+    margin-bottom: 56px;
+}
+.map__img{
+    width: 800px;
+    margin-bottom: 56px;
+}
 /************************************************
-*/
-
+    sns-link    */
+.sns__link{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.sns__link-img{
+    width: 48px;
+    margin: 24px;
+}
 /************************************************
-    */
-
+    footer  */
+footer{
+    width:100vw;
+    height:380px;
+    background-image: url('../img/footer.png');
+    background-repeat: no-repeat;
+}
+footer p{
+    text-align: center;
+    padding-top: 24px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
     /************************************************
     */
 
