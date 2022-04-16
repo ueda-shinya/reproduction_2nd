@@ -356,6 +356,7 @@ footer{
     height:380px;
     background-image: url('../img/footer.png');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 footer p{
     text-align: center;
