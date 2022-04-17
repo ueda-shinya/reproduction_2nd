@@ -7,7 +7,6 @@ html {
 /************************************************
     body    */
 body{
-    /*min-width: 1080px;*/
     width: 100vw;
     padding-top: 70px;
     font-family: "Helvetica Neue",
@@ -62,6 +61,17 @@ header {
     text-align: center;
     font-size: 15px;
 }
+/************************************************
+    sns-link    */
+.sns__link{
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+}
+.sns__link-img{
+    width: 48px;
+}
+
 main{
     width:100vw;
 }
@@ -340,16 +350,6 @@ h2{
 .map__img{
     width: 800px;
     margin-bottom: 56px;
-}
-/************************************************
-    sns-link    */
-.sns__link{
-    position: fixed;
-    bottom: 12px;
-    right: 12px;
-}
-.sns__link-img{
-    width: 48px;
 }
 /************************************************
     footer  */
